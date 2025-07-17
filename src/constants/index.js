@@ -1,5 +1,6 @@
-export const navLinks = [
-  {
+
+// ./src/constants/index.js
+export const navLinks = [{
     id: "about",
     title: "About",
     link: "#about"
@@ -14,10 +15,10 @@ export const navLinks = [
     title: "Contact",
     link: "#contact"
   
-  },
-];
-const services = [
-  {
+  }]; // remove the duplicate export
+
+
+export const services = [ {
     title: "Web Developer",
     icon: "/assets/web.png",
   },
@@ -28,11 +29,10 @@ const services = [
   {
     title: "Content Creator",
     icon: "/assets/creator.png",
-  },
-];
+  }];
 
-const technologies = [
-  {
+
+export const technologies = [  {
     name: "HTML 5",
     icon: "/assets/html.webp",
   },
@@ -84,8 +84,4 @@ const technologies = [
     {
     name: "C++",
     icon: "/assets/cpp.webp",
-  }
-
-];
-export { navLinks,services,technologies};
-
+  }];
