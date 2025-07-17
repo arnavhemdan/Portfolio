@@ -31,7 +31,7 @@ const AvatarModel = () => {
       frameloop="always"
       shadows
       camera={{ position: [0, 1, 5], fov: 50 }}
-      gl={{ preserveDrawingBuffer: true }}
+     gl={{ alpha: true, preserveDrawingBuffer: true }}
     >
       <Suspense fallback={null}>
         <ambientLight intensity={1} />

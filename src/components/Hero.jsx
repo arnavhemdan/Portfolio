@@ -38,7 +38,10 @@ useEffect(() => {
 
 
   return (
-    <section className={`relative w-full h-screen mx-auto  ${styles.heroBackground}`}>
+    <section
+   className={`relative w-full h-screen mx-auto ${styles.heroBackground} -z-10`}
+ >
+     
       <div
         className={`absolute inset-0 top-[120px]  max-w-7xl mx-auto ${styles.paddingX} flex flex-row items-start gap-5`}
       >
@@ -58,7 +61,9 @@ useEffect(() => {
     </div>
       </div>
 
-    <AvatarCanvas/>
+     <div className="absolute inset-0 z-0">
+    <AvatarCanvas />
+  </div>
 
       <div className='absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center'>
         <a href='#about'>
