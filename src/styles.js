@@ -13,8 +13,7 @@ const styles = {
   sectionSubText:
     "sm:text-[18px] text-[14px] text-secondary uppercase tracking-wider",
 
-    heroBackground: `bg-cover bg-center bg-no-repeat bg-[url('/assets/herobg.png')] sm:bg-contain`,
-
+      heroBackground: `bg-cover bg-center bg-no-repeat bg-[url('/assets/herobg.png')]`,
 
 };
 

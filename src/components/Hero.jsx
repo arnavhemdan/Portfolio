@@ -38,7 +38,7 @@ useEffect(() => {
 
 
   return (
-    <section className={`relative w-full min-h-screen mx-auto ${styles.heroBackground}`}>
+    <section className={`relative w-full h-screen mx-auto  ${styles.heroBackground}`}>
       <div
         className={`absolute inset-0 top-[120px]  max-w-7xl mx-auto ${styles.paddingX} flex flex-row items-start gap-5`}
       >
